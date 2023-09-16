@@ -1,0 +1,259 @@
+@import '../../App.css';
+.header
+{
+    height: 150vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+.header-main
+{
+    width: 100%;
+    height: 150vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text
+{
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.header-text-main
+{
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.header-text-main h1
+{
+   font-size:var(--font-size-large);
+  --font-family-small:'Poppins', sans-serif;
+   font-family:var(--font-family-small);
+   color: var(--color-blue);
+}
+.header-text-main p
+{
+   font-family: var(--font-family-small);
+   color: var(--color-black);
+   font-size:var(--font-size-small-1);
+   font-weight: 800;
+}
+/* .header-img
+{
+    width: 50%;
+    height: 100vh;
+} */
+.header-button
+{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    height: 13vh;
+    width: 100%;
+    overflow: hidden;
+}
+.header-button-btn1
+{
+    border-radius: 0px 300px 300px 300px;
+    height: 10.3vh;
+    width: 243px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    /* border: 2px solid linear-gradient(rgb(207, 197, 252), rgb(255, 138, 158)); */
+
+}
+  
+.button-main
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
+    z-index: 1;
+}
+.header-button-btn2
+{
+    border-radius: 0px 300px 300px 300px;
+    height: 10.3vh;
+    width: 243px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: white;
+    
+}
+.same::before
+{
+    position:absolute;
+    height: 12vh;
+    justify-self: end;
+    align-items: start;
+    width: 0%;
+    z-index: 700;
+    left: 0;
+    content: '';
+    background:linear-gradient( to right,  rgb(151,160,253), rgb(88,184,242));
+    /* left: -200px; */
+    transition: width 0.3s; 
+
+    
+}
+.same1::before
+{
+    overflow: hidden;
+    position:absolute;
+    height: 12vh;
+    justify-self: end;
+    align-items: start;
+    width: 0%;
+    z-index: 1;
+    left: 0;
+    content: '';
+    background:linear-gradient(to right, rgb(254,192,248), rgb(176,177,253));
+    /* left: -200px; */
+    transition: width  0.3s ;   
+}
+.same:hover::before
+{
+   width: 100%;
+   color: white;
+} 
+.same1:hover::before
+{
+   width: 100%;
+   color: white;
+} 
+
+.header-button-btn1-part1
+{
+    height: 9vh;
+    width: 35%;
+    z-index: 3;
+    
+}
+.header-button-btn1-part1:hover
+{
+    color: white;
+}
+.header-button1
+{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+   justify-content: center;
+   align-items: center;
+    width: 250px ;
+    height: 11vh;
+    background:linear-gradient(to right, rgb(254,192,248), rgb(176,177,253));
+    border-radius: 0px 300px 300px 300px;
+    z-index: 12;
+}
+.header-bu:hover
+{
+color: white;
+}
+.header-button
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 250px ;
+    height: 11vh;
+    background:linear-gradient( to right, rgb(151,160,253), rgb(88,184,242));
+    border-radius: 0px 300px 300px 300px;
+    z-index: -1;
+}
+.header-button:hover
+{
+color: white;
+}
+.header-button-btn1-part1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 3rem;
+    z-index: 1000;
+    color: rgb(255,167,244);
+    
+}
+.header-button-btn1-part2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 3rem;
+    z-index: 1000;
+    color: rgb(0, 0, 0);
+    
+}
+.header-button-btn1-part2:hover
+{
+color: white;
+}
+.header-button-btn1-part2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    width: auto;
+    z-index: 1000;
+    margin-left: 10px;
+}
+.header-button-btn1-part2 .span1
+{
+  
+   font-family: var( --font-family-small);
+   font-size: 0.9rem;
+  
+}
+.header-button-btn1-part2 .span2
+{
+   font-size: 1.2rem;
+   font-family: var( --font-family-small);
+   font-weight: 700;
+   
+}
+.header-img
+{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width:35%;
+    /* z-index: 1; */
+}
+.header-button-btn2-part2
+{
+   z-index: 3;
+    font-size: 3rem;
+    color: rgb(124,207,252);
+}
+.header-back-img img
+{
+    height: 140vh;
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    right:0px;
+    top: 0px;
+    /* right: -10px; */
+}

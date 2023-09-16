@@ -1,0 +1,122 @@
+.Banner
+{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-main
+{
+    /* position: relative; */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    /* overflow: hidden; */
+}
+.Banner-text
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+   border-radius: 0 20px 20px 20px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient( to left , rgba(243, 171, 245, 0.85), rgba(122, 224, 255, 0.85));
+}
+.Banner-text-main
+{
+    height:auto;
+    width: 50%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+   
+}
+.Banner-text-main h1
+{
+    font-weight: 500;
+    color: white;
+    font-family: var( --font-family-small);
+    font-size: var(--font-size-large-1);
+}
+.Banner-text-main p
+{
+    color: white;
+    font-family: var( --font-family-small);
+    font-size: var(--font-size-small-1);
+    font-weight: 500;
+}
+.Banner-text-main div 
+{
+    margin-top: 50px;
+   
+}
+.Banner-img
+{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    position:absolute;
+    right: 0;
+}
+.Banner-img img
+{
+    border-radius: 0 20px 20px 20px;
+
+}
+.Banner-img i
+{
+    height: 10vh;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: white;
+    position: absolute;
+    left: -40px;
+   z-index: 1;
+   border: 10px solid  rgb(242,171,245);
+   border-radius: 50px;
+   
+
+}
+.Banner-img i:hover
+{
+    width: calc(10% +10px);
+    border: 0px solid  rgb(242,171,245);
+}
+.Banner-text .img2
+{
+    position: absolute;
+    width: 150%;
+    height: 200vh;
+    left: 200px;
+    z-index: -100;
+    animation: anima 5s infinite ;
+    animation-delay:-0.1s ;
+    animation-timing-function: ease-in-out;
+}
+@keyframes anima 
+{
+    0%
+    {
+        left: -400px;
+    }
+    50%
+    {
+        left: -350px;
+    }
+    75%
+    {
+        left: -300px;
+    }
+    100%
+    {
+        left:-250px;
+    }
+    
+}

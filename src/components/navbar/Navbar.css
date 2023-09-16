@@ -1,0 +1,55 @@
+@import '../../App.css';
+
+.navbar {
+
+   display: flex;
+   position: fixed;
+   width: 100%;
+   align-items: center;
+   height: 10vh;
+   z-index: 100;
+   top: 0;
+}
+
+.navbar-main {
+   width: 77.5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: auto;
+}
+
+.scrolled {
+   background: white;
+}
+
+.navbar-tabs {
+   height: 8vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 50%;
+}
+
+.navbar-tabs ul {
+
+   height: 8vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.navbar-tabs ul li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar-tabs ul  a {
+   color: rgba(0, 0, 0, 0.801);
+   font-size: var(----font-size-small);
+   font-family: var(--font-family-small);
+   font-weight: 900;
+
+}

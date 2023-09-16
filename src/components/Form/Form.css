@@ -1,0 +1,22 @@
+@import './../../App.css';
+.form
+{
+    padding: 50px 170px 50px 170px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    height: 5vh;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+label
+{
+    margin-bottom: 5px;
+    font-size: 2rem;
+}

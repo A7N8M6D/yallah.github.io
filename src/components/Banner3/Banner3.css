@@ -1,0 +1,101 @@
+.Banner3-text
+{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    
+   /* border-radius: 20px; */
+    /* align-items: center; */
+    position: relative;
+    
+}
+.Banner3-main
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Banner3-text-main
+{
+width: 100%;
+/* overflow: hidden; */
+}
+.Banner3-img-main 
+{
+    /* overflow: hidden; */
+    position: relative;
+}
+.Banner3-img-main .img1
+{
+    position: absolute;
+    right: 0;
+}
+.Banner2-img .img1
+{
+    left: 280px;
+}
+/* .Banner3-img-main .backgroundd
+{
+    position: absolute;
+} */
+.backgroundd3
+{
+    position: absolute;
+    left: -50px;
+    /* overflow: hidden; */
+}
+.Banner2-img .img2 {
+
+right: 140px;
+}
+.Banner2-text-main .Banner2-menu {
+flex-direction: column;
+
+}
+.Banner2-text-main .Banner2-menu-1 {
+height: 17vh;
+width: 80%;
+}
+.Banner2-img 
+{
+position: relative;
+}
+.Banner2-img .img3
+{
+    z-index: -3;
+    position: absolute;
+    left: -50px;
+    /* overflow: hidden; */
+}
+.backgroundd3::before
+{
+    background-image: url('./../../../public//IMG/Banner/pattern.jpg');
+    content: "";
+    position: absolute;
+    height: 80vh;
+    width: 10000px;
+    z-index: -5;
+    right: -0px;
+    animation: mua 7s infinite;
+}
+@keyframes mua
+{
+    0%
+    {
+        right: 100px;
+    }
+    25%
+    {
+        right: 200px;
+    }
+    75%
+    {
+        right: 240px;
+    }
+    100%
+    {
+        right: 300px;
+    }
+}

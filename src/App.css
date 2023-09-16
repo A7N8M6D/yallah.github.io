@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Climate+Crisis&family=Golos+Text:wght@600&family=Poppins&family=Roboto:ital,wght@1,900&family=Tilt+Warp&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+:root {
+  --font-size-small: 1.5rem;
+  --font-size-small-1: 1.2rem;
+  --font-size-large: 4rem;
+  --font-size-large-1: 2.5rem;
+  --font-family-small: 'Poppins', sans-serif;
+  --color-blue: rgb(18,55,105);
+  --color-black: rgba(0, 0, 0, 0.527);
+}
+.button1
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var( --font-family-small);
+  font-size: var(--font-size-small-1);
+  font-weight: 500;
+  height: 8vh;
+  width: 200px;
+
+  background-color: rgb(126,209,254);
+  border:3px solid white;
+  border-radius: 0 100px 100px 100px;
+  color: white;
+}
+.container {
+  padding: 0 170px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

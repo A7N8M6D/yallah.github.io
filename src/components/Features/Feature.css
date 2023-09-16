@@ -1,0 +1,136 @@
+@import '../../App.css';
+
+.Feature {
+    padding: 170px 170px 170px 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-main {
+    width: 100%;
+}
+
+.feature-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 65%;
+    padding-bottom: 6rem;
+}
+
+.feature-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.feature-heading p {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+
+}
+.feature-banner h1 {
+ 
+   text-align: center;
+   margin-top: 2%;
+
+}
+
+
+.feature-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading h1 {
+    font-size: var(--font-size-small);
+    font-style: var(--font-family-small);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.feature-banner h1 span {
+    font-size: var(--font-size-large);
+    display: flex;
+    color: var(--color-blue);
+    justify-content: center;
+    align-self: center;
+
+
+}
+.feature-Menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+    /* justify-content: space-around; */
+    width: 100%;
+    
+}
+.feature-background
+{
+    background: linear-gradient(to left , rgb(242,171,245), rgb(122,224,255));
+    width: 380px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 20px;
+    position: relative;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.feature-Menu-main
+{
+    background: white;
+    width: 373px;
+    height: 49vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0 20px 20px 20px;
+    
+}
+.feature-background::before
+{
+    position: absolute;
+    bottom:  0;
+    right: 0;
+    height: 0%;
+    content: '';
+    /* z-index: 100; */
+    background: linear-gradient(to left , rgb(242,171,245), rgb(122,224,255));
+   width: 100%;
+   transition: all 0.1s ease-in-out;
+}
+.feature-background:hover:before
+{
+     height: 100%;
+}
+.feature-Menu-main h1
+{
+    height: auto;
+    font-size:5rem;
+    z-index: 5;
+}
+.feature-Menu-main p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    width: 90%;
+}
